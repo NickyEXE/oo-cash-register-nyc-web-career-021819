@@ -6,6 +6,10 @@ class CashRegister
     @discount = discount
     @items = []
   end
+
+  def items
+    @items
+  end
   
   def add_item(title, price, quantity = 1)
     quantity.times do
