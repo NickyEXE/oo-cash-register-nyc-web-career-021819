@@ -11,14 +11,6 @@ class CashRegister
     @items
   end
   
-  def items=(item)
-    items.push(item)
-  end
-  
-  def items_adder(item)
-    @items
-  end
-  
   def add_item(title, price, quantity = 1)
     quantity.times do
       items.push(title)
