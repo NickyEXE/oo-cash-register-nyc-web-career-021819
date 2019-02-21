@@ -12,7 +12,7 @@ class CashRegister
   end
   
   def items=(item)
-    @items.push(item)
+    items.push(item)
   end
   
   def items_adder(item)
