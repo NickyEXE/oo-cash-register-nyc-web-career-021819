@@ -17,6 +17,7 @@ class CashRegister
   
   def items_adder(item)
     @items
+  end
   
   def add_item(title, price, quantity = 1)
     items=(item)
